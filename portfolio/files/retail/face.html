@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<html>
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <meta name= "viewport" content="width=device-width, intitial-scale=1.0">
+        <link rel="stylesheet" href="retailstyles.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/0d6d8c6f2e.js" crossorigin="anonymous"></script>
+        <style>
+            img {
+                max-width:100%;
+                height: auto;
+                }
+            .container {
+                display:grid;
+                grid-template-columns:repeat(12, 1fr);
+                grid-auto-rows:minmax(100px, auto);
+                grid-gap:1em;
+            }
+            section {
+                grid-column:1/13;
+                background-image: url(images/stars%20copy.jpg);
+                background-repeat:no-repeat;
+                background-attachment: fixed;
+                background-position: center center;
+                background-size: cover;
+                text-align:center;
+            }
+            .section-text {
+                padding-top: 75px;
+                padding-bottom:75px;
+                text-align: center;
+                font-size: 75px;
+                text-decoration: bold;
+                color:white;
+            }
+
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <header>
+                <p><a href="index.html"><img src="images/header.png"></a></p>
+            </header>
+            <div class="cart">
+                <i class="fas fa-shopping-cart"></i><br>
+                Cart
+            </div>
+            <div class="search">
+                <i class="fas fa-search"></i> Search <br>
+                <input type="text" placeholder="Search..">
+            </div>
+            <nav>
+            <a class="active" href=index.html>HOME</a>
+            <a href=eyes.html>EYES</a>
+            <a href=face.html>FACE</a>
+            <a href=policy.html>POLICY </a>
+            </nav>
+            <section>
+             <div class="section-text">
+        
+             face <br>
+                      
+             </div>
+            </section>
+            <div class="product1">
+                <div class="blush1-image">
+                <img src="images/tarte.jpg">
+                </div>
+                <div class="eye1-text">
+                <h2>Tarte Blush</h2>
+                </div>
+            </div>
+            <div class="product2">
+             <div class="blush2-image">
+                <img src="images/macblush.jpg">
+                </div>
+                <h2>Mac Blush</h2>
+            </div>
+            <div class="product3">
+             <div class="blush3-image">
+                <img src="images/milani.jpg">
+                </div>
+                <h2>Milani Blush</h2>
+            </div>
+            <div class="product4">
+             <div class="bronzer4-image">
+                <img src="images/butterbronzer.jpg">
+                </div>
+                <h2>Butter Bronzer</h2>
+            </div>
+            <div class="product5">
+              <div class="bronzer5-image">
+                <img src="images/chocolate.jpg">
+                </div>
+                <h2>Too Faced Bronzer</h2>
+            </div>
+            <div class="product6">
+              <div class="bronzer6-image">
+                <img src="images/nyxbronzer.jpg">
+                </div>
+                <h2>NYX Bronzer</h2>
+            </div>
+         
+            <footer>
+            barebonesbeauty.com
+            </footer>
+        </div>
+    </body>
+</html>
