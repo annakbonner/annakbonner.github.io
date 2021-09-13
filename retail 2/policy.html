@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<html>
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <meta name= "viewport" content="width=device-width, intitial-scale=1.0">
+        <link rel="stylesheet" href="retailstyles.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/0d6d8c6f2e.js" crossorigin="anonymous"></script>
+        <style>
+            img {
+                max-width:100%;
+                height: auto;
+            }
+            .container {
+                display:grid;
+                grid-template-columns:repeat(12, 1fr);
+                grid-auto-rows:minmax(100px, auto);
+                grid-gap:1em;
+            }
+            section {
+            grid-column:1/13;
+            background-image: url(images/sparkles.jpg);
+            background-repeat:no-repeat;
+            background-attachment: fixed;
+            background-position: center center;
+            background-size: cover;
+            text-align:center;
+            }
+            .section-text {
+            padding-top: 75px;
+            padding-bottom:75px;
+            text-align: center;
+            font-size: 75px;
+            text-decoration: bold;
+            color:white;
+            }
+            .panel1 {
+            grid-column: 1/13;
+            background-color: lightpink;
+            display: grid;
+            }
+            .panel1-text {
+            grid-column: 1/13;
+            text-align: left;
+            padding-left: 40px;
+            padding-right: 40px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <header>
+                <p><a href="index.html"><img src="images/header.png"></a></p>
+            </header>
+            <div class="cart">
+                <i class="fas fa-shopping-cart"></i><br>
+                Cart
+            </div>
+            <div class="search">
+                <i class="fas fa-search"></i> Search <br>
+                <input type="text" placeholder="Search..">
+            </div>
+            <nav>
+            <a class="active" href=index.html>HOME</a>
+            <a href=eyes.html>EYES</a>
+            <a href=face.html>FACE</a>
+            <a href=policy.html> POLICY</a>
+            </nav>
+            <section>
+             <div class="section-text">
+        
+             policy <br>
+                      
+             </div>
+             </section>
+            <div class="panel1">
+                <div class="panel1-text">
+                <h1> Notice </h1>
+                <p>We use the information we collect to deliver your requests and customize your experience here at Barebones Beauty.  If at any point we change our private policy, the update will be posted on our website and you will recieve an e-mail.  We reccommend reviewing our private policy periodically to stay up-to-date.</p>
+                <h1> Choice </h1>
+                <p>You can review, update, or modify your account information, including profile, contact, payment and shipping information, at any time by logging in to your account.  You also may unsubscribe from our emails at any point, but note that we may still sent non-promotional emails such as confirmation emails or about changes to our legal terms.  Most browers accept cookies by default, however you may remove or reject them if you would like.  Please note that it could reduce the functionability of the website. </p>
+                <h1> Access </h1>
+                <p> Within Barebones Beauty, we may disclose personal data to affiliate who need to know the information to manage accounts and profiles, complete transactions, respond to requests, and to conduct internal research and development.   </p>
+                <h1> Security </h1>
+                <p> Barebones Beauty has certifies to the Department of Commerce that it adheres to the Privacy Shield Principles.  We are committed to resolving complaints about processing of personal data and keeping your data safe. To learn more about the privacy shield program, please visit https://www.privacyshield.gov/.</p>
+                <h1>Contact</h1>
+                <p> If you have any questions or concerns regarding this Private Policy, please contact us with the information provided below: <br>
+                Barebones Beauty Inc. 800 Main St. Harrisonburg, VA 22801<br>
+                571-999-9999<br>
+            contact@barebonesbeauty.com</p>
+                                                                                                                                                     
+                                                                                                                                                    </p>
+            </div>
+            <footer>
+            barebonesbeauty.com
+            </footer>
+        </div>
+    </body>
+</html>
